@@ -1,0 +1,249 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+
+header {
+  padding: 50px 0;
+  background: #333;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.about-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.service-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.service-box i {
+  margin-bottom: 15px;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+.education-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.education-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.education-item h3 {
+  font-size: 1.5em;
+}
+
+.education-item p {
+  margin: 5px 0;
+}
+.skills-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.skill-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.skill-item h3 {
+  font-size: 1.5em;
+}
+
+.skill-item p {
+  margin: 5px 0;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.experience-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.experience-item h3 {
+  font-size: 1.5em;
+}
+
+.experience-item p,
+.experience-item ul {
+  margin: 5px 0;
+}
+
+.experience-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.portfolio-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.portfolio-item:hover .portfolio-caption {
+  opacity: 1;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: inherit;
+}
+.clients-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.client-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.client-item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.client-item h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.client-item p {
+  margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
