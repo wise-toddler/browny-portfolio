@@ -358,3 +358,50 @@ textarea.form-control {
   margin-top: 20px;
   color: green;
 }
+
+/* =============================================== */
+
+/* Profile section styles */
+.profile-section {
+  padding: 60px 0;
+}
+
+.profile-photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.profile-bio {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.profile-social-links {
+  margin-top: 20px;
+}
+
+.profile-social-links .social-link {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.profile-social-links .social-link:hover {
+  color: #007bff;
+}

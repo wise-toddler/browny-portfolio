@@ -13,7 +13,7 @@ const Contact = () => (
       <div className="row">
         <div className="col-lg-8 mx-auto">
           <form name="sentMessage" novalidate>
-            <div className="control-group">
+            <div className="control-group">``
               <div className="form-group floating-label-form-group controls">
                 <label>Name</label>
                 <input type="text" className="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." />
